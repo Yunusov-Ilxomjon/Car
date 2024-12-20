@@ -1,5 +1,5 @@
-import './navbar.css'
 import Link from 'next/link'
+import './navbar.css'
 
 const Navbar = () => {
   return (
@@ -15,9 +15,9 @@ const Navbar = () => {
             color: 'white'
 
           }}>
-            <li><Link href="./">Главная</Link></li>
-            <li><Link href="./Servise">Оклейка автомобилей</Link></li>
-            <li><Link href="./Tablitsa">Детейлинг автомобилей</Link></li>
+            <li><Link href="/">Главная</Link></li>
+            <li><Link href="/Servise">Оклейка автомобилей</Link></li>
+            <li><Link href="/Tablitsa">Детейлинг автомобилей</Link></li>
           </ul>
         </div>
 
@@ -54,28 +54,28 @@ const Navbar = () => {
         </h1>
       </div>
 
-<Link href="./Servise">
-<button className='uslugi'><h1 style={{
-           fontSize: '24px',
-           color: 'white',
-           position: 'relative',
-         left: '50px',
-         textTransform: 'uppercase',
-      }}>Наши услуги</h1></button>
-</Link>
+      <Link href="/Servise">
+        <button className='uslugi'><h1 style={{
+          fontSize: '24px',
+          color: 'white',
+          position: 'relative',
+          left: '50px',
+          textTransform: 'uppercase',
+        }}>Наши услуги</h1></button>
+      </Link>
 
 
       <div className="navbar-info">
         <div className="navbar-adress">
           <h2 className='adress'>
-          адрес:
+            адрес:
           </h2>
           <h1 className='contact'>Lorem ipsum dolor sit amet, consectetur adipiscing elit </h1>
         </div>
 
         <div className="navbar-adress">
           <h2 className='adress'>
-          телефон:
+            телефон:
           </h2>
           <h1 className='contact'>8 (812) 123-45-67</h1>
           <h1 className='contact'>8-911-123-45-67</h1>
@@ -83,21 +83,12 @@ const Navbar = () => {
 
         <div className="navbar-adress">
           <h2 className='adress'>
-          Режим работы:
+            Режим работы:
           </h2>
           <h1 className='contact'>пн-пт : 10:00 - 20:00</h1>
           <h1 className='contact'>сб-вск : 12:00 - 20:00</h1>
         </div>
       </div>
-
-
-
-
-
-
-
-
-
 
     </div>
   )

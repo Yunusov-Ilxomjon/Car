@@ -142,10 +142,10 @@ const Footer = () => {
             justifyContent: 'center'
 
           }}>
-            <li><Link href="">Главная</Link></li>
-            <li><Link href="">Оклейка автомобилей</Link></li>
-            <li><Link href="">Детейлинг автомобилей</Link></li>
-            <li><Link href="">Галерея работ</Link></li>
+            <li><Link href="./">Главная</Link></li>
+            <li><Link href="./Servise">Оклейка автомобилей</Link></li>
+            <li><Link href="./Tablitsa">Детейлинг автомобилей</Link></li>
+            <li><Link href="./">Галерея работ</Link></li>
           </ul>
                 </div>
 
